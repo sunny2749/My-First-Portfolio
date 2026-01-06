@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* eta dewar karon padding onnanno kono style dile box er vitorei content thakbe bahire jabena */
+}
+
+
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header{
+    background-color: #FFF8F3 ;
+    padding-top: 50px;
+}
+
+nav{
+  width: 71%;
+  max-width: 1140px;
+  border: 1px solid red;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo h2 {
+  font-size: 45px;
+  font-weight: 800;
+}
+.color-orange{
+  color: #FD6E0A;
+}
+
+nav .menu{
+  display: flex;
+  list-style: none;
+  gap:51px ;
+  align-items: center;
+}
+
+nav .menu a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
+}
+
+.btn{
+  border-radius: 5px;
+  background-color: #FD6E0A;
+  padding:18.28px 35px 19.3px 36px ;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+
